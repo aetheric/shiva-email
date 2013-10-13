@@ -1,4 +1,4 @@
-shiva-email
-===========
+shiva-email-pegdown
+===================
 
-A simple email management api
+A pegdown implementation of mail rendering
