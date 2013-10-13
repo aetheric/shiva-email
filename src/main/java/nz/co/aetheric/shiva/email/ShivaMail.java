@@ -1,5 +1,7 @@
 package nz.co.aetheric.shiva.email;
 
+import nz.co.aetheric.shiva.email.recipient.Recipient;
+
 import java.util.Collection;
 import java.util.Locale;
 import java.util.Map;
