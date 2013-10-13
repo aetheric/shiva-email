@@ -31,20 +31,20 @@ public class MailRendererService implements MailRenderer {
 	@Getter @Setter
 	private MailStylingProvider styling;
 
-	public String renderTemplatePlain(String code, Locale locale, Map<String, Object> data) {
-
-	}
-
-	public String renderTemplateRich(String code, Locale locale, Map<String, Object> data) {
-		Map<String, ? extends MailRenderingProvider> providers = Maps.newHashMap(this.providers);
-
-		for (String renderingMethod : config.getPreferredRenderers()) {
-			MailRenderingProvider provider = providers.get(renderingMethod);
-			if (provider != null) {
-				return provider.renderTemplate()
-			}
-		}
-	}
+//	public String renderTemplatePlain(String code, Locale locale, Map<String, Object> data) {
+//
+//	}
+//
+//	public String renderTemplateRich(String code, Locale locale, Map<String, Object> data) {
+//		Map<String, ? extends MailRenderingProvider> providers = Maps.newHashMap(this.providers);
+//
+//		for (String renderingMethod : config.getPreferredRenderers()) {
+//			MailRenderingProvider provider = providers.get(renderingMethod);
+//			if (provider != null) {
+//				return provider.renderTemplate()
+//			}
+//		}
+//	}
 
 	public void setProviders(Collection<? extends MailRenderingProvider> providers) {
 		this.providers = Maps.uniqueIndex(providers, new MailRenderingProviderTypeTransform());

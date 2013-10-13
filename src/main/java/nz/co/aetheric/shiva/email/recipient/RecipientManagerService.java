@@ -1,9 +1,10 @@
 package nz.co.aetheric.shiva.email.recipient;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collection;
+
+import static com.google.common.collect.Collections2.transform;
 
 /**
  * This is the default implementation of the {@link RecipientManager} interface.
@@ -30,7 +31,7 @@ public class RecipientManagerService implements RecipientManager {
 	 * @return A collection of Recipients of type {@link RecipientType#TO}.
 	 */
 	public Collection<Recipient> recipientsTo(Collection<String> addresses) {
-		return Collections2.transform(addresses, new RecipientTransformer(RecipientType.TO));
+		return transform(addresses, new RecipientTransformer(RecipientType.TO));
 	}
 
 	/**
@@ -51,7 +52,7 @@ public class RecipientManagerService implements RecipientManager {
 	 * @return A collection of Recipients of type {@link RecipientType#COPY}.
 	 */
 	public Collection<Recipient> recipientsCopy(Collection<String> addresses) {
-		return Collections2.transform(addresses, new RecipientTransformer(RecipientType.COPY));
+		return transform(addresses, new RecipientTransformer(RecipientType.COPY));
 	}
 
 	/**
@@ -72,7 +73,7 @@ public class RecipientManagerService implements RecipientManager {
 	 * @return A collection of Recipients of type {@link RecipientType#BLIND}.
 	 */
 	public Collection<Recipient> recipientsBlind(Collection<String> addresses) {
-		return Collections2.transform(addresses, new RecipientTransformer(RecipientType.BLIND));
+		return transform(addresses, new RecipientTransformer(RecipientType.BLIND));
 	}
 
 }
