@@ -4,7 +4,7 @@
     <parent>
         <groupId>nz.co.aetheric.parent</groupId>
         <artifactId>maven-parent-lombok</artifactId>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
     </parent>
 
 	<groupId>nz.co.aetheric.shiva.mail</groupId>
@@ -17,6 +17,12 @@
     <url>https://github.com/aetheric/shiva-email/tree/shiva-email-api</url>
 
     <dependencies>
+
+	    <dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		    <version>[1.7,1.8)</version>
+	    </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
