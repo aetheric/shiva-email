@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.recipient;
+package nz.co.aetheric.shiva.email.api.recipient;
 
 /**
  * This enumeration describes the three types of message recipient available for use.

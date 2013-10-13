@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.rendering;
+package nz.co.aetheric.shiva.email.api.rendering;
 
 /**
  * TODO: What is the purpose of this class?

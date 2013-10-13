@@ -1,6 +1,6 @@
-package nz.co.aetheric.shiva.email;
+package nz.co.aetheric.shiva.email.api;
 
-import nz.co.aetheric.shiva.email.recipient.Recipient;
+import nz.co.aetheric.shiva.email.api.recipient.Recipient;
 
 import java.util.Collection;
 import java.util.Locale;

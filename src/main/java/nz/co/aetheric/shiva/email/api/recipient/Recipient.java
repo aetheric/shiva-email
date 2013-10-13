@@ -1,10 +1,6 @@
-package nz.co.aetheric.shiva.email.recipient;
+package nz.co.aetheric.shiva.email.api.recipient;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Collections2;
 import lombok.Getter;
-
-import java.util.Collection;
 
 /**
  * This class represents a single email recipient.

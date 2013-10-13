@@ -1,6 +1,6 @@
-package nz.co.aetheric.shiva.email.styling;
+package nz.co.aetheric.shiva.email.api.styling;
 
-import nz.co.aetheric.shiva.email.ShivaMailException;
+import nz.co.aetheric.shiva.email.api.ShivaMailException;
 
 import java.util.List;
 

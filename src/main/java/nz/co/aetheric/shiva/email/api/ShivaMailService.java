@@ -1,11 +1,10 @@
-package nz.co.aetheric.shiva.email;
+package nz.co.aetheric.shiva.email.api;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import nz.co.aetheric.shiva.email.content.MailContent;
-import nz.co.aetheric.shiva.email.recipient.Recipient;
-import nz.co.aetheric.shiva.email.rendering.MailRenderer;
+import nz.co.aetheric.shiva.email.api.recipient.Recipient;
+import nz.co.aetheric.shiva.email.api.rendering.MailRenderer;
 
 import java.util.Collection;
 import java.util.Locale;

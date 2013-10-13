@@ -1,16 +1,15 @@
-package nz.co.aetheric.shiva.email.rendering;
+package nz.co.aetheric.shiva.email.api.rendering;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Maps;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import nz.co.aetheric.shiva.email.ShivaMailConfig;
-import nz.co.aetheric.shiva.email.content.MailContentProvider;
-import nz.co.aetheric.shiva.email.styling.MailStylingProvider;
+import nz.co.aetheric.shiva.email.api.ShivaMailConfig;
+import nz.co.aetheric.shiva.email.api.content.MailContentProvider;
+import nz.co.aetheric.shiva.email.api.styling.MailStylingProvider;
 
 import java.util.Collection;
-import java.util.Locale;
 import java.util.Map;
 
 /**

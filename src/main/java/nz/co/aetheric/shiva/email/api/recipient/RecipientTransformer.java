@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.recipient;
+package nz.co.aetheric.shiva.email.api.recipient;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Collections2;

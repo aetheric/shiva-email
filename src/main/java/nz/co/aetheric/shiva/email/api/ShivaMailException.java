@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email;
+package nz.co.aetheric.shiva.email.api;
 
 import org.apache.commons.lang3.StringUtils;
 

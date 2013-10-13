@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.recipient;
+package nz.co.aetheric.shiva.email.api.recipient;
 
 import lombok.extern.slf4j.Slf4j;
 

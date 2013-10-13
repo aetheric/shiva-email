@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.recipient;
+package nz.co.aetheric.shiva.email.api.recipient;
 
 public interface RecipientManager {
 

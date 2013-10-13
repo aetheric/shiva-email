@@ -1,6 +1,6 @@
-package nz.co.aetheric.shiva.email.rendering;
+package nz.co.aetheric.shiva.email.api.rendering;
 
-import nz.co.aetheric.shiva.email.content.MailContent;
+import nz.co.aetheric.shiva.email.api.content.MailContent;
 
 import java.util.Collection;
 

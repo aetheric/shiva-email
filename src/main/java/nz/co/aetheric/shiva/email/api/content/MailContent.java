@@ -1,4 +1,4 @@
-package nz.co.aetheric.shiva.email.content;
+package nz.co.aetheric.shiva.email.api.content;
 
 import java.util.Locale;
 
