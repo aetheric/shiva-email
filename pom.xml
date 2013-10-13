@@ -14,7 +14,7 @@
 
     <name>Shiva Email: Ebean</name>
     <description>An ebean implementation of the shive-mail-api providers</description>
-    <url>https://github.com/aetheric/shiva-email-ebean</url>
+    <url>https://github.com/aetheric/shiva-email/tree/shiva-email-ebean</url>
 
     <dependencies>
 
