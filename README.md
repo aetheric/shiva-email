@@ -1,4 +1,3 @@
-shiva-email
-===========
+# Shiva Email: API
 
-A simple email management api
+This module defines the interfaces and objects required to implement a simple email sending operation.
