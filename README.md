@@ -1,4 +1,3 @@
-shiva-email
-===========
+# shiva-email-ebean
 
-A simple email management api
+An ebean implementation of the shiva-mail providers
